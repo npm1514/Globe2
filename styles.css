@@ -1,12 +1,23 @@
+body {
+  font-family: "Oswald";
+  text-align: center;
+}
+
+.head, footer {
+  width: 90vw;
+  margin: auto;
+}
+
+.globe {
+  width: 50vw;
+  margin: auto;
+}
+
 .graticule {
   fill: none;
   stroke: #777;
   stroke-width: .5px;
   stroke-opacity: .5;
-}
-
-.land {
-  fill: #222;
 }
 
 .county-boundary {
